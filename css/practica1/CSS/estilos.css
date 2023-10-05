@@ -1,0 +1,169 @@
+body{
+    text-align: center;
+    background-color: rgb(253, 205, 255);
+}
+
+.caja{
+    border: solid 2px rgb(30, 2, 55);
+    margin: 20px;
+    
+}
+
+.medida_mm{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    width: 50mm;
+    height: 50mm;
+}
+
+.medida_cm{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    width: 5cm;
+    height: 5cm;
+}
+
+.medida_in{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    width: 142.85pt;
+    height: 142.85pt;
+}
+
+
+
+.medida_pt{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    width: 142.85pt;
+    height: 142.85pt;
+}
+
+.medida_pc{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    width: 11.82pc;
+    height:11.82pc;
+}
+
+.medida_px{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    width: 185.55px;
+    height:185.55px;
+
+}
+
+.art1{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    font-size: 18px;
+}
+
+.art1 h2{
+    font-size: 1.5em;
+}
+
+.art1 p{
+    font-size: 2em;
+}
+
+.art2{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    font-size: 18px;
+}
+
+.art2 h2{
+    font-size: 1.5ex;
+}
+
+.art2 p{
+    font-size: 2ex;
+}
+
+.art3{
+    border: rgb(126, 40, 125) 2px solid;
+    margin:10px;
+    font-size: 18px;
+}
+
+.art3 h2{
+    font-size: 1.5rem;
+}
+
+.art3 p{
+    font-size: 2rem;
+}
+
+.porcentaje1{
+    border: rgb(126, 40, 125) 2px solid;
+    width: 70%;
+}
+
+.porcentaje2{
+    margin: 10px;
+    border: rgb(126, 40, 125) 2px solid;
+    width: 40%;
+}
+
+.color_rojo{
+    background-color: red;
+    color: white;
+}
+
+.color_verde{
+    background-color: green;
+    color: white;
+}
+
+.color_azul{
+    background-color: blue;
+    color: white;
+}
+
+.color_negro{
+    background-color: black;
+    color: white;
+}
+
+.color_amarillo{
+    background-color: yellow;
+    color:black;
+}
+
+.color_naranja{
+    background-color: orangered;
+    color:black;
+}
+
+.color_naranja_rgb{
+    background-color: orangered;
+    color:black;
+}
+.color_rojo_rgb{
+    background-color: rgb(100%, 0%, 0%);
+}
+
+.color_verde_rgb{
+    background-color: rgb(0%, 100%, 0%);
+}
+.color_azul_rgb{
+    background-color: rgb(0%, 0%, 100%);
+}
+
+.alfa1{
+    background: rgba(0%, 0%, 100%, 0.5);
+}
+
+.alfa2{
+    background: rgba(0, 255, 0, 1);
+    top: -100px;
+    left: 100px;
+    position: relative;
+}
+
+
+
+
+
