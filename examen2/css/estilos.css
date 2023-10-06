@@ -4,17 +4,33 @@ body{
 }
 
 
-#calendario{
-    color: #333c46;
-    font-family: sans-serif;
+.fondo1_1{
+    background-color:#cdd8e6;
+    text-align: center;
 }
 
-.meses{
-    width: 80%;
-    border: black 1px solid;
-    margin-bottom: 20px;
-	text-align: center;
-	font-size: 20px;
+.texto_azul{
+    color:#5d92fc;
+}
+
+.fondo1_2{
+    background-color: #e8edf4;
+    text-align: center;
+}
+
+
+.fondo2_1{
+    background-color: #cadfd9;
+    text-align: center;
+}
+
+.texto_verde{
+    color:#37aa95;
+}
+
+.fondo2_2{
+    background-color: #e9f1ef;
+    text-align: center;
 }
 /**************************************************/
 .borde_rubik{
