@@ -68,6 +68,38 @@ body{
     border: black 1px solid;
 }
 
+#fondo{
+    background-color: black;
+}
+.letra_cafe{
+    color: brown;
+    font-size: 20pt;
+}
+
+.letra_amarilla{
+    color: yellow;
+    font-size: 20pt;
+}
+
+.letra_verde{
+    color: green;
+    font-size: 20pt;
+}
+
+.letra_azul{
+    color: blue;
+    font-size: 20pt;
+}
+
+.letra{
+    color: white;
+    font-size: 20pt;
+}
+
+.letra_roja{
+    color: red;
+    font-size: 20pt;
+}
 /*************************************************/
 
 #titulo2{
@@ -91,7 +123,6 @@ caption{
 
 .contenido2{
     color: rgba(128,21,27,255);
-
 }
 /**********************************************/
 .negro{
