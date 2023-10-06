@@ -32,6 +32,35 @@ body{
     background-color: #e9f1ef;
     text-align: center;
 }
+
+.fondo3_1{
+    background-color: #fce2cf;
+    text-align: center;
+}
+
+.texto_naranja{
+    color:#e5bd8e;
+}
+
+.fondo3_2{
+    background-color: #fef0e9;
+    text-align: center;
+}
+
+
+.fondo4_1{
+    background-color: #e9cecd;
+    text-align: center;
+}
+
+.texto_rojo{
+    color: #cb665a;
+}
+
+.fondo4_2{
+    background-color: #f4e8e8;
+    text-align: center;
+}
 /**************************************************/
 .borde_rubik{
     border: black 3px solid;
