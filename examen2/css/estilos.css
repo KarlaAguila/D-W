@@ -17,11 +17,17 @@ body{
 	font-size: 20px;
 }
 /**************************************************/
+.borde_rubik{
+    border: black 3px solid;
+    border-spacing: 0;
+}
+
 .cubo_amarillo{
     background-color: #ffff00;
     margin:10px;
     width: 70px;
     height:70px;
+    border: black 1px solid;
 }
 
 .cubo_cafe{
@@ -29,6 +35,7 @@ body{
     margin:10px;
     width: 70px;
     height:70px;
+    border: black 1px solid;
 }
 
 .cubo_verde{
@@ -36,18 +43,21 @@ body{
     margin:10px;
     width: 70px;
     height:70px;
+    border: black 1px solid;
 }
 .cubo{
     background-color: white;
     margin:10px;
     width: 70px;
     height:70px;
+    border: black 1px solid;
 }
 .cubo_azul{
     background-color: blue;
     margin:10px;
     width: 70px;
     height:70px;
+    border: black 1px solid;
 }
 
 .cubo_rojo{
@@ -55,6 +65,7 @@ body{
     margin:10px;
     width: 70px;
     height:70px;
+    border: black 1px solid;
 }
 
 /*************************************************/
