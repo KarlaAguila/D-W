@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body> <!--Lo que si es visible en la pagina-->
+<body > <!--Lo que si es visible en la pagina-->
     <div>
         <h1 id="calendario">CALENDARIO 2023</h1>
         <div>
@@ -39,11 +39,31 @@
                     
                     
     </div>
-
+    <!--*******************************************************************-->
+    <br>
+    <table align= "center" border="1px">
+        <tr> <!--Primera fila-->
+            <td class="cubo_amarillo"></td>
+            <td class="cubo_amarillo"></td>
+            <td class="cubo_cafe"></td>
+        </tr>
+        <tr> <!--Segunda fila-->
+            <td class="cubo_verde"></td>
+            <td class="cubo"></td>
+            <td class="cubo_azul"></td>
+        </tr>
+        <tr> <!--Tercera fila-->
+            <td class="cubo_azul"></td>
+            <td class="cubo_verde"></td>
+            <td class="cubo_rojo"></td>
+        </tr>
+    </table>
+    <br>
+    <br>
     <!--*******************************************************************-->
     <div id="titulo2"><b>*****Proyecto Ventas Anuales*****</b></div>
     <br>
-    <table align= "center" border="1px" width="680px">
+    <table align= "center" border="1px" width="700px">
         <CAPTION>Resumen General</CAPTION><!--Coloca comentario debajo-->
         <tr> <!--Primera fila-->
             <th class="encabezado">TOTAL SUCURSALES</th>
@@ -61,12 +81,12 @@
     <br>
     <br>
     <!--***********************************************************************-->
-    <table align= "center" border="1px" width="800px">
+    <table  align="center" border="1px" width="900px">
         <CAPTION>Detalle Anual</CAPTION><!--Coloca comentario debajo-->
         <tr> <!--Primera fila 12-->
-            <th colspan="13">Periodo de Evaluación 2020-2021</th>
+            <th colspan="13" class="negro">Periodo de Evaluación 2020-2021</th>
         </tr>
-        <tr> <!--Segunda fila-->
+        <tr class="azul"> <!--Segunda fila-->
             <th rowspan="2">No. Sucursal</th>
             <th rowspan="2">Sucursal</th>
             <th colspan="2">[Vol. Prod. 1]</th>
@@ -77,7 +97,7 @@
             <th rowspan="2">Total</th>
         </tr>
 
-        <tr> <!--Tercera fila-->
+        <tr class="azul"> <!--Tercera fila-->
             <th>2020</th>
             <th>2021</th>
             <th>2020</th>
@@ -89,6 +109,103 @@
             <th>2020</th>
             <th>2021</th>
         </tr>
+
+        <tr> <!--cuarta fila-->
+            <td>33442001</td>
+            <td>Sucursal 1</td>
+            <td class="centrar">14</td>
+            <td class="amarillo">18 &#8593;</td>
+            <td class="centrar">40</td>
+            <td class="amarillo">34 &darr;</td>
+            <td class="centrar">13</td>
+            <td class="amarillo">17 &#8593;</td>
+            <td class="centrar">11</td>
+            <td class="amarillo">12 &#8593;</td>
+            <td class="centrar">0</td>
+            <td class="amarillo">0 =</td> 
+            <td class="negro">81</td>   
+        </tr>
+
+        <tr> <!--quinta fila-->
+            <td>33442002</td>
+            <td>Sucursal 2</td>
+            <td class="centrar">10</td>
+            <td class="amarillo">10 =</td>
+            <td class="centrar">55</td>
+            <td class="amarillo">56 &#8593;</td>
+            <td class="centrar">17</td>
+            <td class="amarillo">21 &#8593;</td>
+            <td class="centrar">13</td>
+            <td class="amarillo">9 &darr;</td>
+            <td class="centrar">7</td>
+            <td class="amarillo">6 &darr;</td> 
+            <td class="negro">102</td>   
+        </tr>
+
+        <tr> <!-- sexta fila-->
+            <td>33442003</td>
+            <td>Sucursal 3</td>
+            <td class="centrar">24</td>
+            <td class="amarillo">25 &#8593;</td>
+            <td class="centrar">59</td>
+            <td class="amarillo">64 &#8593;</td>
+            <td class="centrar">27</td>
+            <td class="amarillo">21 &darr;</td>
+            <td class="centrar">14</td>
+            <td class="amarillo">17 &#8593;</td>
+            <td class="centrar">5</td>
+            <td class="amarillo">2 &darr;</td>   
+            <td class="negro">129</td> 
+        </tr>
+
+        <tr> <!--séptima fila-->
+            <td>33442004</td>
+            <td>Sucursal 4</td>
+            <td class="centrar">34</td>
+            <td class="amarillo">30 &darr;</td>
+            <td class="centrar">89</td>
+            <td class="amarillo">91 &#8593;</td>
+            <td class="centrar">76</td>
+            <td class="amarillo">59 &darr;</td>
+            <td class="centrar">58</td>
+            <td class="amarillo">68 &#8593;</td>
+            <td class="centrar">11</td>
+            <td class="amarillo">19 &#8593;</td>   
+            <td class="negro">267</td> 
+        </tr>
+
+        <tr> <!--octava fila-->
+            <td>33442005</td>
+            <td>Sucursal 5</td>
+            <td class="centrar">252</td>
+            <td class="amarillo">253 &#8593;</td>
+            <td class="centrar">119</td>
+            <td class="amarillo">128 &#8593;</td>
+            <td class="centrar">77</td>
+            <td class="amarillo">62 &darr;</td>
+            <td class="centrar">26</td>
+            <td class="amarillo">32 &#8593;</td>
+            <td class="centrar">3</td>
+            <td class="amarillo">3 =</td>   
+            <td class="negro">478</td> 
+        </tr>
+
+        <tr class="negro"> <!--novena fila-->
+            <td colspan="2">Totales</td>
+            <td>334</td>
+            <td>336 &#8593;</td>
+            <td>362</td>
+            <td>373 &#8593;</td>
+            <td>210</td>
+            <td>124 &darr;</td>
+            <td>122</td>
+            <td>138 &#8593;</td>
+            <td>26</td>
+            <td>30 &#8593;</td>   
+            <td>1,057</td> 
+        </tr>
+
+
     </table>
 
 </body>
