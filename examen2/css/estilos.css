@@ -1,36 +1,65 @@
-body{
-    width: 70%;
-    padding: 30px;
+.calendario{
+    border: 10px solid white;
+    color: #2f3a46;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
 }
 
+.tamano1{
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
 
 .fondo1_1{
-    background-color:#cdd8e6;
+    background-color:#e8edf3;
     text-align: center;
 }
 
 .texto_azul{
-    color:#5d92fc;
+    color:#2980b9;
 }
 
 .fondo1_2{
-    background-color: #e8edf4;
+    background-color:  #ccd7e6;
     text-align: center;
 }
 
-
-.fondo2_1{
-    background-color: #cadfd9;
+.fondo1_3{
+    background-color: #2980b9;
     text-align: center;
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid;
+    
 }
 
 .texto_verde{
-    color:#37aa95;
+    color:#16a085;
+}
+
+.fondo2_1{
+    text-align: center;
+    background-color: #edf6f3;
 }
 
 .fondo2_2{
-    background-color: #e9f1ef;
+    background-color: #d9e8e4;
     text-align: center;
+}
+
+.fondo2_3{
+    background-color: #16a085;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid;
+
 }
 
 .fondo3_1{
@@ -38,14 +67,27 @@ body{
     text-align: center;
 }
 
-.texto_naranja{
-    color:#e5bd8e;
-}
-
 .fondo3_2{
     background-color: #fef0e9;
     text-align: center;
 }
+
+.fondo3_3{
+    background-color:  #f29604;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid;
+
+}
+
+.texto_naranja{
+    color:#f29604;
+}
+
+
 
 
 .fondo4_1{
@@ -54,13 +96,83 @@ body{
 }
 
 .texto_rojo{
-    color: #cb665a;
+    color: #c0392b;
 }
 
 .fondo4_2{
     background-color: #f4e8e8;
     text-align: center;
 }
+
+.fondo4_3{
+    background-color:   #c0392b;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid;
+
+}
+
+.fondo5_1{
+    background-color: #d0cdd0;
+    text-align: center;
+}
+
+.fondo5_2{
+    background-color: #e9e8e9;
+    text-align: center;
+}
+
+.fondo5_3{
+    background-color:  #4b2c50;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid;
+
+}
+
+.texto_morado{
+    color:#4b2c50;
+}
+
+.fondo6_1{
+    background-color: #e7eed9;
+    text-align: center;
+}
+
+.fondo6_2{
+    background-color:#f5f7f2;
+    text-align: center;
+}
+
+.fondo6_3{
+    background-color:  #9bbb59;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid;
+
+}
+
+.texto_verde2{
+    color:#9bbb59;
+}
+.espacio{
+    border: 10px solid white;
+}
+
+.celda{
+    height:18.24px;
+}
+
+
 /**************************************************/
 .borde_rubik{
     border: black 3px solid;
