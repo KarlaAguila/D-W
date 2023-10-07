@@ -10,12 +10,6 @@
     align-content: center;
 }
 
-.tamano1{
-    width: 30px;
-    height: 20px;
-    text-align: center;
-}
-
 .fondo1_1{
     background-color:  #ccd7e6;
     text-align: center;
@@ -305,4 +299,11 @@ caption{
 
 .centrar{
     text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: #6d00a3;
+    font-size: 20px;
+    font-family: cursive;
 }
