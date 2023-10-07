@@ -6,6 +6,10 @@
     
 }
 
+.centrar2{
+    align-content: center;
+}
+
 .tamano1{
     width: 30px;
     height: 20px;
@@ -13,7 +17,7 @@
 }
 
 .fondo1_1{
-    background-color:#e8edf3;
+    background-color:  #ccd7e6;
     text-align: center;
 }
 
@@ -22,7 +26,7 @@
 }
 
 .fondo1_2{
-    background-color:  #ccd7e6;
+    background-color:#e8edf3;
     text-align: center;
 }
 
@@ -42,12 +46,12 @@
 }
 
 .fondo2_1{
+    background-color: #d9e8e4;
     text-align: center;
-    background-color: #edf6f3;
 }
 
 .fondo2_2{
-    background-color: #d9e8e4;
+    background-color: #edf6f3;
     text-align: center;
 }
 
