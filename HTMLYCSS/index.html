@@ -1,15 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <!--Lo que no es visible en la pagina-->
-    <link rel= “stylesheet” href="CSS/bootstrap/css/bootstrap.css">
-    <link rel= “stylesheet” type=”text/css” href="CSS/micss2.css"> 
-    <link rel= “stylesheet” type=”text/css” href="CSS/bootstrap/bootstrap-icons.css"> 
-</head>
-<body> <!--Lo que si es visible en la pagina-->
-    <h1>Holi</h1>
+    <head> <!--Lo que no es visible en la pagina-->
+        <meta charset="utf-8" />
+        <title>Ejemplos de bootstrap</title>
+        <link rel= "stylesheet"  href="CSS/bootstrap/css/bootstrap.css">
+        <link rel= "stylesheet"  href="CSS/micss2.css"> 
+        <link rel= "stylesheet"  href="CSS/bootstrap/bootstrap-icons.css"> 
+    </head>
+    <body> <!--Lo que si es visible en la pagina-->
+        <div class="container"> 
+            <p class="fondo1">Este es un parrafo esta dentro de un container</p>
+        </div>
+        <div class="container-fluid">
+            <p class="fondo2">Este parrafo esta dentro de un container-fluid</p>
+        </div>
 
-    
-    <!--Librerías JQuery-->
-    <script type="text/javascript" src="CSS/bootstrap/js/bootstrap.bundle.js"></script>
-</body>
+        <hr>
+        <h1>Ejemplo de rejillas</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 fondo1">3 Espacios</div>
+                <div class="col-lg-2 fondo2">2 Espacios</div>
+                <div class="col-lg-3 fondo5">5 Espacios</div>
+                <div class="col-lg-3 fondo5">3 Espacios</div>
+
+            </div>
+
+        </div>
+
+        <br>
+        <h1>Uso de 2 tamaños en las Rejillas</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 fondo1">col-12 col-md-8</div>
+                <div class="col-6 col-md-4 fondo2">col-6 col-md-4</div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-4 fondo3">col-6 col-md-4</div>
+                <div class="col-6 col-md-4 fondo4">col-6 col-md-4</div>
+                <div class="col-6 col-md-4 fondo5">col-6 col-md-4</div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 col-md-6 fondo1">col-2 col-md-6</div>
+                <div class="col-12 col-md-6 fondo4">col-12 col-md-6</div>
+            </div>
+        </div>
+        <br>
+        <h1>Anidamiento de Columnas</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-9 fondo2">Nivel 1: Columna de 9 posiciones
+
+                    <div class="row">
+                        <div class="col-8 fondo1">Nivel 2: Col-8-Pos</div>
+                        <div class="col-4 fondo3">Nivel 2: Col-4-Pos</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-2 fondo1">N 3</div>
+                                <div class="col-2 fondo2"> N 3</div>
+                                <div class="col-2 fondo3">N 3</div>
+                                <div class="col-2 fondo4">N 3</div>
+                                <div class="col-2 fondo 5">N 3</div>
+                                <div class="col-2 fondo6">N 3</div>
+                            </div>
+                        </div>
+                        <div class="col-4 fondo3"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 fondo1">**</div>
+                        <div class="col-4 fondo3"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fondo2">**</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h1>Botones</h1>
+        <div class="container"> 
+            <div class="row">
+                <div class="col-12 marco">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-light">Light</button>
+                    <button type="button" class="btn btn-dark">Dark</button>
+                    <button type="button" class="btn btn-link">Link</button>
+                    <p class="btn btn-primary" >Ola</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Librerías JQuery-->
+        <script type="text/javascript" src="CSS/bootstrap/js/bootstrap.bundle.js"></script>
+    </body>
 </html>
