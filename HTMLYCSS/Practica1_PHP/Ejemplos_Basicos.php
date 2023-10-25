@@ -2,6 +2,9 @@
     include("operaciones.php");
 ?>
 <!DOCTYPE html>
+<?php
+    include("funciones.php");
+?>
 <html lang="en">
 <head> <!--Lo que no es visible en la pagina-->
     <meta charset="UTF-8"/>
@@ -156,6 +159,79 @@
         {
             print("El contenido de la variable b[$b], es mayor que la variable a[$a] <br>");
         }
+
+        if($b < $c) 
+        {
+            print("El contenido de la variable b[$b], es menor que la variable c[$c] <br>");
+        }
+        else 
+        {
+            print("El contenido de la variable b[$b], es mayor que la variable c[$c] <br>");
+        }
+
+        if($a > $c) 
+        {
+            print("El contenido de la variable a[$a], es mayor que la variable c[$c] <br>");
+        }
+        elseif($a < $c)
+        {
+            print("El contenido de la variable a[$a], es menor que la variable c[$c] <br>");
+        }
+        else 
+        {
+            print("El contenido de la variable a[$a], es igual que la variable c[$c] <br>");
+        }
+
+        print(" <hr><br>********************* DO - WHILE *************** <br>");
+
+        //primero ejecuta y luego pregunta 
+        $i = 20; 
+
+        do {
+            print("Iteración [$i]<br>");
+            $i++;
+        }while($i <= 30);
+
+        print(" <hr><br>*********************  WHILE *************** <br>");
+
+        //primero pregunta y luego ejecuta 
+        $i = 0; 
+
+        while ($i <= 20){
+            print("Iteración [$i]<br>");
+            $i++;
+        }
+
+        print(" <hr><br>*********************  SWITCH *************** <br>");
+
+        $op = '-';
+
+        switch($op)
+        {
+            case '+': 
+                print("La operación seleccionada es la SUMA <br>");
+                break;
+            case '-': 
+                print("La operación seleccionada es la RESTA <br>");
+                break;
+                
+            case '*': 
+                print("La operación seleccionada es la MULTIPLICACIÓN <br>");
+                break;
+            case '/': 
+                print("La operación seleccionada es la DIVISION <br>");
+                break;
+            
+            default: 
+                print("La operación no fue encontrada <br>");
+                break;
+        }
+
     ?>
+
+    <hr>
+    <h2>Asignaciones</h2>
+    <p>El valor de la variable x es [<?php print(x); ?>]</p>
+
 </body>
 </html>
