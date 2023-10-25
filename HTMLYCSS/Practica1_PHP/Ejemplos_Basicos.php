@@ -132,6 +132,30 @@
         $res = divide(20,5);
         print("El resultado de la función DIVIDE es [$res] <br>");
     ?>
+
+    <hr>
+    <h2>Constantes</h2>
+    <?php 
+        define("PI", 3.141516);
+        print("El valor PI es =>" . PI);    ?>
     
+    <p>El valor de la constante PI es: [ <?php print(PI); ?>]</p>
+
+    <hr>
+    <h2>Estructuras de Control</h2>
+    <?php 
+        print("********************* IF *************** <br>");
+        $a = 20;
+        $b = 30;
+        $c = 20;
+
+        if($a < $b)
+            print("El contenido de la variable a [$a], es menor que la variable b [$b] <br>");
+        
+        if($b > $a) 
+        {
+            print("El contenido de la variable b[$b], es mayor que la variable a[$a] <br>");
+        }
+    ?>
 </body>
 </html>
