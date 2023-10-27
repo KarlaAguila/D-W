@@ -3,7 +3,7 @@
 ?>
 <!DOCTYPE html>
 <?php
-    include("funciones.php");
+    require "funciones.php";
 ?>
 <html lang="en">
 <head> <!--Lo que no es visible en la pagina-->
