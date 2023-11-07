@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Agrega estilos para los elementos específicos */
+  #seccion1 {
+    font-size: 18px;
+  }
+  
+  #seccion2 {
+    font-size: 18px;
+  }
+  
+  /* Agrega más estilos según sea necesario para las otras secciones */
+  
+  /* Estilos para las imágenes */
+  img {
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  /* Otros estilos para enlaces */
+  a {
+    text-decoration: none;
+    color: #000080;
+  }
+  
+  /* Estilos para el texto de color rojo */
+  font[color="#FF0000"] {
+    color: #FF0000;
+  }
+  
