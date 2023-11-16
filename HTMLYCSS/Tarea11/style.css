@@ -1,45 +1,177 @@
-/* styles.css */
-body {
-    
-    padding-left: 150px;
-    padding-right: 150px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16.5px;
-    line-height: 1.7em;
-    text-align: left;
-    letter-spacing: 1px;
-    color: #333333;
-  }
+/* Estilos base */
+.medida {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16.5px;
+  line-height: 1.7em;
+  letter-spacing: 1px;
+  color: #333333;
+}
 
+.fondo {
+  background-color: #F8F4EE;
+}
 
-.color{
+.fondo2 {
+  background-color: #f8e4d4;
+}
+
+.color {
   color: black;
 }
 
-.indice{
+.indice {
   font-family: 'Jost', sans-serif;
   font-size: 14.5px;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-  
+
 a {
-  color: rgb(0, 0, 0); /* Cambia "blue" al color que desees */
+  color: rgb(0, 0, 0);
 }
 
-.barra{
+.barra {
   padding: 10px;
 }
 
-.subtitulo{
-  font-family:'Noir-et-Blanc', sans-serif;
+.subtitulo {
   font-weight: bold;
   line-height: 1.42;
-  font-size: 42px;
+  font-size: 35px;
   color: #222222;
   margin-bottom: 12px;
   line-height: 1;
   text-transform: none;
   letter-spacing: 2px;
+}
+
+.justificar {
+  text-align: justify;
+}
+
+.foto1 {
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.tabla {
+  width: 100%;
+}
+
+.mitad {
+  width: 50%;
+}
+
+.foto80 {
+  width: 70%;
   
 }
+
+
+
+
+.referencia {
+  height: 40px;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .medida {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: rgb(248, 21, 183);
+  }
+
+  /* Ajustes para el encabezado/subtítulo */
+  .subtitulo {
+    font-size: 23px;
+    color: rgb(0, 0, 0);;
+  }
+
+  .fondo2 {
+    background-color: #efa9da;
+    color:  rgb(17, 8, 8);
+  }
+
+  /* Ajustes para las imágenes en la sección de miembros del grupo */
+  .foto80,
+  .foto1  {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ocultar1{
+    display: none;
+  }
+
+
+
+  /* Ajustes para la barra de navegación en pantallas pequeñas */
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  /* Ajustes para las referencias de redes sociales */
+  .referencia {
+    height: 30px;
+    
+  }
+
+
+}
+
+/* Media Queries para pantallas muy pequeñas */
+@media screen and (max-width: 600px) {
+  .medida {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    color: #500000;
+    background-color: rgb(248, 155, 155);
+  }
+
+  /* Ajustes para el encabezado/subtítulo */
+  .subtitulo {
+    font-size: 23px;
+    color: #800000;
+  }
+
+  .fondo2 {
+    background-color: #ff2525;
+    color:  #ffffff;
+  }
+  /* Ajustes para las imágenes en la sección de miembros del grupo */
+  .foto80,
+  .foto1  {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ocultar2{
+    display: none;
+  }
+  
+  /* Ajustes para las referencias de redes sociales */
+  .referencia {
+    height: 20px;
+    
+  }
+}
+
+
+
+
