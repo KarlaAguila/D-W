@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripcion" content="Grupo de kpop conformado por 8 integrantes, lideres de la cuarta generación">
+    <meta name="keywords" content="kpop, boy group, lideres de la cuarta generación">
+    <title>Eterna Flor</title>
+    <link rel="icon" href="recursos/logo1.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- Enlace al archivo CSS -->
+	<link rel="stylesheet" type="text/css" href="css/inicio.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel= "stylesheet"  href="css/bootstrap/css/bootstrap.css"> 
+    <link rel= "stylesheet"  href="css/bootstrap/bootstrap-icons.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href="https://fonts.cdnfonts.com/css/geffroy-eleonora" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body class="fondo3">
+
+    <!--****************************Barra de navegación*******************/-->
+    
+    <div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light barra">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+                    <img src="recursos/logo3.png" alt="Logo" height="70" class="d-inline-block align-text-top">
+                    
+                </a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse1">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item indice">
+							<a href="inicio.html" class="nav-link">Inicio</a>
+						</li>
+						<li class="nav-item indice">
+							<a href="login.html" class="nav-link">Login</a>
+						</li>
+                        <li class="nav-item indice">
+							<a href="registro.html" class="nav-link">Log out</a>
+						</li>
+					</ul>				
+				</div>
+			</div>			
+		</nav> 
+	</div>
+
+    <br>
+    <br>
+    <!--****************************Iniciar sesion*******************/-->
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+                <div class="containerr">
+                    <p class="subtitulo3">INICIAR SESION</p>
+                    <hr>
+                    <form id="form" class="formm" method="post"  action="./php/login.php">
+                        <div class="form-controll">
+                            <label for="email" class="subtitulo2">Correo Electrónico: </label>
+                            <input type="text" placeholder="usuario@email.com" name="email" id="email"/>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>  
+                        </div>
+                        <div class="form-controll">
+                            <label for="password" class="subtitulo2">Ingrese Contraseña:</label>
+                            <input type="password" placeholder="Contraseña" name="password" id="password"/>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>  
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+			<div class="col-md-4"></div>					
+		</div>
+	</div>
+
+    <script type="text/javascript" src="css/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>
